@@ -57,6 +57,7 @@
 }
 
 .mid {
+  margin-left: 5%;
   display: inline-block;
   width: 30%;
 }
@@ -66,6 +67,7 @@
 }
 
 .right {
+  margin-left: 2%;
   display: inline-block;
   width: 20%;
   backgruond-color: #dddddd;
