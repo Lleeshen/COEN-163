@@ -33,8 +33,10 @@
 }
 
 #greyBox {
+  display: block;
   height: 40%;
-  background-color: #aaaaaa
+  background-color: #aaaaaa;
+  margin: 0 auto;
 }
 
 #photo1 {
