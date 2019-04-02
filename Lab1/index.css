@@ -83,8 +83,11 @@ h1 {
 }
 
 #SideBar {
-  margin-top: 12px;
   background-color: #dddddd;
+}
+
+#SideBarHeader {
+  text-align: center;
 }
 
 .footer {
