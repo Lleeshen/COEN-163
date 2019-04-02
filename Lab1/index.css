@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+
 .main-container {
   display: block;
   width: 100%;
@@ -46,13 +50,18 @@
   top: 10%;
 }
 
+h1 {
+  font-size: 24px;
+}
+
 .left {
+  margin-top: 30px;
   margin-left: 5%;
   display: inline-block;
   width: 30%;
 }
 
-.left img {
+#photo2 {
   width: 100%;
 }
 
@@ -62,7 +71,7 @@
   width: 30%;
 }
 
-.mid img {
+#photo3 {
   width: 100%;
 }
 
