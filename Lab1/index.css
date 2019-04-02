@@ -31,3 +31,14 @@
 .nav-link a:hover {
   color: #d1de44;
 }
+
+#greyBox {
+  height: 40%;
+  background-color: #aaaaaa
+}
+
+#photo1 {
+  width: 90%;
+  height: 90%;
+  margin-left: 5%;
+}
