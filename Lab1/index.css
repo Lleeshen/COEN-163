@@ -34,7 +34,13 @@
 
 #greyBox {
   display: block;
+  text-align: center;
   height: 50%;
   background-color: #aaaaaa;
-  margin: 0 auto;
+}
+
+#photo1 {
+  height: 80%;
+  position: relative;
+  top: 10%;
 }
