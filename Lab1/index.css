@@ -7,3 +7,18 @@
 .logo {
   height: 10%;
 }
+
+.nav-bar {
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  overflow; hidden;
+  background-color: #000000;
+}
+
+.nav-bar-link {
+  float: center;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+}
