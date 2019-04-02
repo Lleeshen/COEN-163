@@ -9,6 +9,8 @@
 }
 
 .nav-bar {
+  float: center;
+  display: block;
   height: 20px;
   width: 100%;
   text-align: center;
@@ -16,10 +18,11 @@
   background-color: #000000;
 }
 
-.nav-bar-link {
+.nav-bar a {
   float: center;
   display: block;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
+  font-family: sans-serif;
 }
