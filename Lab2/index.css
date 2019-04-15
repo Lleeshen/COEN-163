@@ -16,7 +16,7 @@ body {
 }
 
 #button {
-  display: hidden;
+  display: none;
 }
 
 .nav-bar {
@@ -125,7 +125,7 @@ h1,h2 {
   text-align: center;
 }
 
-.footer a,span {
+.footer-links {
   display: inline-block;
   text-decoration: none;
   font-family: sans-serif;
