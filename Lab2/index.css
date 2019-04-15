@@ -125,11 +125,17 @@ h1,h2 {
   text-align: center;
 }
 
-.footer-links {
+.footer-links a,span {
   display: inline-block;
   text-decoration: none;
   font-family: sans-serif;
   font-size: 10px;
   color: #aaaaaa;
   padding: 20px 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-links {
+    display: none;
+  }
 }
