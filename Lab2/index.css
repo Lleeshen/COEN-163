@@ -1,0 +1,131 @@
+body {
+  font-family: sans-serif;
+  border: 2px solid #000000;
+}
+
+.main-container {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  width: 20%;
+  margin-left: 5%;
+}
+
+.nav-bar {
+  display: block;
+  overflow: hidden;
+  background-color: #000000;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.nav-link a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 12px 16px;
+}
+
+.nav-link a:hover {
+  color: #d1de44;
+}
+
+#greyBox {
+  display: block;
+  text-align: center;
+  height: auto;
+  background-color: #aaaaaa;
+}
+
+#photo1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+  position: relative;
+  top: 10%;
+  border: 2px solid #ffffff;
+}
+
+h1,h2 {
+  font-size: 20px;
+}
+
+.left {
+  vertical-align: top;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 5%;
+  display: inline-block;
+  width: 25%;
+}
+
+#photo2 {
+  width: 100%;
+}
+
+.mid {
+  vertical-align: top;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  position: relative;
+  margin-left: 3%;
+  display: inline-block;
+  width: 25%;
+}
+
+#photo3 {
+  width: 100%;
+}
+
+.right {
+  vertical-align: top;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  position: relative;
+  margin-left: 2%;
+  display: inline-block;
+  width: 34%;
+}
+
+#SideBar {
+  background-color: #eeeeee;
+  padding-top: 8px;
+}
+
+#SideBarHeader {
+  text-align: center;
+}
+
+.SideBarPar {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 16px;
+}
+
+.footer {
+  display: block;
+  overflow: hidden;
+  background-color: #000000;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.footer a,span {
+  display: inline-block;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: #aaaaaa;
+  padding: 20px 14px;
+}
