@@ -11,9 +11,6 @@ body {
 }
 
 #logo {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
   width: 20%;
   margin-left: 5%;
 }
@@ -24,25 +21,8 @@ body {
   }
 }
 
-.button-nav-bar {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-}
-
 #button {
   display: none;
-}
-
-@media only screen and (max-width: 600px) {
-  #button {
-    display: initial;
-
-    text-align: right;
-    width: 10%;
-    top: 40px;
-    right: 10px;
-  }
 }
 
 .nav-bar {
