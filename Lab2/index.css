@@ -10,18 +10,16 @@ body {
   margin-right: auto;
 }
 
-#logo {
+.head-logo {
   width: 20%;
   margin-left: 5%;
 }
 
-@media only screen and (max-width: 1000px) {
-  #logo {
-    width: 35%;
-  }
+#logo {
+  width: 100%;
 }
 
-#button {
+.head-button {
   display: none;
 }
 
@@ -145,6 +143,18 @@ h1,h2 {
 }
 
 @media only screen and (max-width: 1000px) {
+  .head-logo {
+    vertical-align: top;
+    margin-left: 5%;
+    position: relative;
+    width: 35%;
+  }
+
+  #logo {
+    margin-left: 0%;
+    width: 100%;
+  }
+
   .footer {
     height: 30px;
   }
