@@ -144,14 +144,30 @@ h1,h2 {
 
 @media only screen and (max-width: 1000px) {
   .head-logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
     vertical-align: top;
-    margin-left: 5%;
     position: relative;
+    display: inline-block;
+    margin-left: 5%;
     width: 35%;
   }
 
   #logo {
-    margin-left: 0%;
+    width: 100%;
+  }
+
+  .head-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    position: relative;
+    display: inline-block;
+    margin-left: 40%;
+    width: 15%;
+  }
+
+  #button {
     width: 100%;
   }
 
