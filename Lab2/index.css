@@ -186,7 +186,7 @@ h1,h2 {
     margin-top: 30px;
     margin-left: 5%;
     display: inline-block;
-    width: 100%;
+    width: 90%;
   }
 
   #photo2 {
@@ -200,7 +200,7 @@ h1,h2 {
     position: relative;
     margin-left: 3%;
     display: inline-block;
-    width: 100%;
+    width: 90%;
   }
 
   #photo3 {
@@ -214,7 +214,7 @@ h1,h2 {
     position: relative;
     margin-left: 2%;
     display: inline-block;
-    width: 100%;
+    width: 90%;
   }
 
   .footer {
