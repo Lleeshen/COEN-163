@@ -23,7 +23,7 @@ body {
   display: none;
 }
 
-.full-nav-bar {
+.nav-bar {
   display: block;
   overflow: hidden;
   background-color: #000000;
@@ -33,13 +33,16 @@ body {
   text-align: center;
 }
 
-.nav-link a {
+.nav-link-elt {
   display: inline-block;
+  padding: 12px 16px;
+}
+
+.nav-link-elt a{
   text-decoration: none;
   font-family: sans-serif;
   font-size: 14px;
   color: #ffffff;
-  padding: 12px 16px;
 }
 
 .nav-link a:hover {
@@ -143,6 +146,7 @@ h1,h2 {
 }
 
 @media only screen and (max-width: 1000px) {
+
   .head-logo {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -171,14 +175,6 @@ h1,h2 {
     width: 100%;
   }
 
-  .full-nav-bar {
-    height: 2px;
-  }
-
-  .nav-link {
-    display: none;
-  }
-
   .left {
     vertical-align: top;
     position: relative;
@@ -194,7 +190,7 @@ h1,h2 {
     vertical-align: top;
     position: relative;
     display: inline-block;
-    width: 45%;
+    width: 50%;
   }
 
   #photo2 {
@@ -206,7 +202,7 @@ h1,h2 {
     position: relative;
     display: inline-block;
     margin-right: 5%;
-    width: 45%;
+    width: 40%;
   }
 
   .Section-par h1 {
