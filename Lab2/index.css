@@ -23,7 +23,7 @@ body {
   display: none;
 }
 
-.nav-bar {
+.full-nav-bar {
   display: block;
   overflow: hidden;
   background-color: #000000;
@@ -169,6 +169,14 @@ h1,h2 {
 
   #button {
     width: 100%;
+  }
+
+  .full-nav-bar {
+    height: 2px;
+  }
+
+  .nav-link {
+    display: none;
   }
 
   .footer {
