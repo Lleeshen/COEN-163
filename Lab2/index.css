@@ -187,6 +187,7 @@ h1,h2 {
     margin-left: 5%;
     display: block;
     width: 90%;
+    direction: rtl;
   }
 
   .Section-picture {
@@ -215,6 +216,7 @@ h1,h2 {
     margin-left: 5%;
     display: block;
     width: 90%;
+    direction: rtl;
   }
 
   #photo3 {
