@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   border: 2px solid #000000;
+  font-size: 16px;
 }
 
 .main-container {
@@ -16,7 +17,7 @@ body {
 }
 
 #logo {
-  width: 100%;
+  height: 70px;
 }
 
 .head-button {
@@ -175,16 +176,36 @@ h1,h2 {
     width: 15%;
   }
 
-  .nav-link {
-    display: none;
-  }
-
   .nav-bar {
     height: 3px;
   }
 
+  .nav-link {
+    display: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
   .nav-link-elt {
     display: block;
+    padding: 2px 2px;
+    margin-left: 25%;
+    width: 50%;
+    height: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-color: #ffffff;
+  }
+
+  #nav-link-elt-f {
+    border-style: solid;
+    border-width: 1px;
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+  }
+
+  .nav-link-elt a {
+    display: inline;  
   }
 
 /* When menu is collapsed */
