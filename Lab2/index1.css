@@ -203,12 +203,20 @@ h1,h2 {
   }
 */
 
+/* When button opens menu*/
   #button {
     position: relative;
     top: 10px;
     height: 30px;
   }
-
+/*
+  When button is closed
+  #button {
+    position: relative;
+    top: 15px;
+    height 20px;
+  }
+*/
   .left {
     vertical-align: top;
     position: relative;
