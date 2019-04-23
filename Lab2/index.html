@@ -4,9 +4,7 @@
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" type="text/css" href="index1.css" />
     <title> Lab 2 </title>
-    <script type="text/javascript">
-
-    </script>
+    <script src="index1.js"> </script>
   </head>
   <body>
     <header>
@@ -15,13 +13,13 @@
           <img id="logo" src="Logo.png" alt="Logo"/>
         </div>
         <div class="head-button">
-          <img id="button" src="Button-01.png" alt="Menu Button"/>
+          <img id="button" onclick="toggleNav()" src="Button-01.png" alt="Menu Button"/>
         </div>
       </div>
     </header>
     <section>
-      <nav class="nav-bar">
-        <div class="nav-link">
+      <nav id="nav-bar" class="nav-bar">
+        <div id="nav-link" class="nav-link">
           <div class="nav-link-elt"> <a href="#">HOME</a> </div>
           <div class="nav-link-elt"> <a href="#">ABOUT</a> </div>
           <div class="nav-link-elt"> <a href="#">WORK</a> </div>
