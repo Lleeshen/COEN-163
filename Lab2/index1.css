@@ -241,8 +241,8 @@ h1,h2 {
   .left {
     vertical-align: top;
     position: relative;
-    margin-bottom: 20px;
-    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     margin-left: 5%;
     display: block;
     width: 90%;
@@ -258,6 +258,7 @@ h1,h2 {
 
   #photo2 {
     width: 100%;
+    margin-top: 18px;
   }
 
   .Section-par {
@@ -278,8 +279,8 @@ h1,h2 {
 
   .mid {
     vertical-align: top;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
     position: relative;
     margin-left: 5%;
     display: block;
@@ -289,12 +290,13 @@ h1,h2 {
 
   #photo3 {
     width: 100%;
+    margin-top: 18px;
   }
 
   .right {
     vertical-align: top;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     position: relative;
     margin-left: 2%;
     display: inline-block;
