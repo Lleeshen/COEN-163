@@ -185,6 +185,7 @@ h1,h2 {
     display: inline-block;
     margin-left: 40%;
     width: 15%;
+    text-align: right;
   }
 
   .nav-bar {
