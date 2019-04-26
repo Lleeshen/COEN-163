@@ -38,24 +38,21 @@ body {
   text-align: center;
 }
 
-.nav-link {
-  display: block;
-}
-
-.nav-link-elt {
+.nav-link a {
   display: inline-block;
-  padding: 12px 16px;
-}
-
-.nav-link-elt a{
   text-decoration: none;
   font-family: sans-serif;
   font-size: 14px;
   color: #ffffff;
+  padding: 12px 16px;
 }
 
 .nav-link a:hover {
   color: #d1de44;
+}
+
+.side-nav-bar {
+  display:  none;
 }
 
 #greyBox {
@@ -185,55 +182,16 @@ h1,h2 {
     display: inline-block;
     margin-left: 40%;
     width: 15%;
-  }
-
-  .nav-bar {
-    height: 3px;
+    text-align: right;
   }
 
   .nav-link {
-    display: none;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-
-  .nav-link-elt {
-    display: block;
-    padding: 2px 2px;
-    margin-left: 25%;
-    width: 50%;
-    height: 20px;
-    border-style: solid;
-    border-width: 1px;
-    border-bottom-color: #ffffff;
-  }
-
-  #nav-link-elt-f {
-    border-style: solid;
-    border-width: 1px;
-    border-top-color: #ffffff;
-    border-bottom-color: #ffffff;
-  }
-
-  .nav-link-elt a {
-    display: inline;  
-  }
-
-/* When menu is collapsed */
-  #nav-link {
     display: none;
   }
 
   .nav-bar {
     height: 3px;
   }
-
-/*
-  When menu is open
-  .nav-link {
-    display: block;
-  }
-*/
 
 /* When button opens menu*/
   #button {
