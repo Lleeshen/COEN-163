@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" type="text/css" href="index2.css" />
     <title> Lab 2 </title>
-    <script type="text/javascript">
-
-    </script>
+    <script src="index2.js"> </script>
   </head>
   <body>
     <header>
@@ -15,14 +14,15 @@
           <img id="logo" src="Logo.png" alt="Logo"/>
         </div>
         <div class="head-button">
-          <img id="button" src="Button-01.png" alt="Menu Button"/>
+          <img id="button" onclick="toggleNav()" src="Button-01.png" alt="Menu Button"/>
         </div>
       </div>
     </header>
     <section>
-      <nav class="nav-bar">
-        <div class="nav-link">
-          <div class="nav-link-elt"> <a href="#">HOME</a> </div>
+      <h1 class="hidden">Main section</h1>
+      <nav id="nav-bar" class="nav-bar">
+        <div id="nav-link" class="nav-link">
+          <div id="nav-link-elt-f" class="nav-link-elt"> <a href="#">HOME</a> </div>
           <div class="nav-link-elt"> <a href="#">ABOUT</a> </div>
           <div class="nav-link-elt"> <a href="#">WORK</a> </div>
           <div class="nav-link-elt"> <a href="#">NEWS</a> </div>
@@ -37,7 +37,7 @@
             <img id="photo2" src="Photo-02.jpg" alt="Photo2"/>
           </div>
           <div class="Section-par">
-            <h1> Title Head </h1>
+            <h2> Title Head </h2>
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
               sed diam nonummy nibh euismod tincidunt ut laoreet dolore
@@ -52,7 +52,7 @@
             <img id="photo3" src="Photo-03.jpg" alt="Photo3"/>
           </div>
           <div class="Section-par">
-            <h1> Title head </h1>
+            <h2> Title head </h2>
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
               sed diam nonummy nibh euismod tincidunt ut laoreet dolore
