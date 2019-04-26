@@ -3,10 +3,14 @@ window.onresize = function(){ location.reload(); }
 function toggleNav() {
   buttonImg = document.getElementById("button");
   if(buttonImg.style.top == "10px") {
+    document.getElementById("sideNav").style.width = "120px";    
+    document.getElementById("main").style.marginRight= "120px";    
     buttonImg.src = "Button-02.png";
     buttonImg.style.top = "15px";
     buttonImg.style.height = "20px";
   } else {
+    document.getElementById("sideNav").style.width = "0";
+    document.getElementById("main").style.marginRight= "0";    
     buttonImg.src = "Button-01.png";
     buttonImg.style.top = "10px";
     buttonImg.style.height = "30px";

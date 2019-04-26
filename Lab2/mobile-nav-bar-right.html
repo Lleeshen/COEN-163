@@ -8,97 +8,99 @@
     <script src="index2.js"> </script>
   </head>
   <body>
-    <header>
-      <div class="main-container">
-        <div class="head-logo">
-          <img id="logo" src="Logo.png" alt="Logo"/>
+    <div id="main">
+      <header>
+        <div class="main-container">
+          <div class="head-logo">
+            <img id="logo" src="Logo.png" alt="Logo"/>
+          </div>
+          <div class="head-button">
+            <img id="button" onclick="toggleNav()" src="Button-01.png" alt="Menu Button"/>
+          </div>
         </div>
-        <div class="head-button">
-          <img id="button" onclick="toggleNav()" src="Button-01.png" alt="Menu Button"/>
+      </header>
+      <section>
+        <h1 class="hidden">Main section</h1>
+        <nav class="nav-bar">
+          <div class="nav-link">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">WORK</a>
+            <a href="#">NEWS</a>
+          </div>
+        </nav>
+        <div class="main-container" id="greyBox">
+          <img id="photo1" src="Photo-01.jpg" alt="Photo1"/>
         </div>
-      </div>
-    </header>
-    <section>
-      <h1 class="hidden">Main section</h1>
-      <nav class="nav-bar">
-        <div class="nav-link">
+        <div id="main-section" class="main-container">
+          <div class="left">
+            <div class="Section-picture">
+              <img id="photo2" src="Photo-02.jpg" alt="Photo2"/>
+            </div>
+            <div class="Section-par">
+              <h2> Title Head </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis
+                nisl ut aliquip ex ea commodo consequat, duis autem vel.
+              </p>
+            </div>
+          </div>
+          <div class="mid">
+            <div class="Section-picture">
+              <img id="photo3" src="Photo-03.jpg" alt="Photo3"/>
+            </div>
+            <div class="Section-par">
+              <h2> Title head </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis
+                nisl ut aliquip ex ea commodo consequat, duis autem vel.
+              </p>
+            </div>
+          </div>
+          <div class="right">
+            <aside id="SideBar">
+              <h2 id="SideBarHeader"> Side Bar </h2>
+              <p class="SideBarPar">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis
+                nisl ut aliquip ex ea commodo consequat, duis autem vel.
+                Lorem ipsum dolor sit amet.
+
+                Lorem ipsumonsectetuer adipiscing elit, sed diam nonummy
+                nibh euismod tincidunt ut laoreet dolore magna aliquam
+                erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                exerci tation ullamcorper suscipit lobortis nisl ut
+                aliquip ex ea commodo consequat, duis autem.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-links">
           <a href="#">HOME</a>
+          <span> | </span>
           <a href="#">ABOUT</a>
+          <span> | </span>
           <a href="#">WORK</a>
+          <span> | </span>
           <a href="#">NEWS</a>
         </div>
-      </nav>
-      <nav id="sideNav" class ="side-nav-bar">
-        <a href="#">HOME</a>
+      </footer>
+    </div>
+    <nav id="sideNav" class ="side-nav-bar">
+        <a id="side-nav-bar-f" href="#">HOME</a>
         <a href="#">ABOUT</a>
         <a href="#">WORK</a>
         <a href="#">NEWS</a>
-      </nav>
-      <div class="main-container" id="greyBox">
-        <img id="photo1" src="Photo-01.jpg" alt="Photo1"/>
-      </div>
-      <div id="main-section" class="main-container">
-        <div class="left">
-          <div class="Section-picture">
-            <img id="photo2" src="Photo-02.jpg" alt="Photo2"/>
-          </div>
-          <div class="Section-par">
-            <h2> Title Head </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-              sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-              magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-              quis nostrud exerci tation ullamcorper suscipit lobortis
-              nisl ut aliquip ex ea commodo consequat, duis autem vel.
-            </p>
-          </div>
-        </div>
-        <div class="mid">
-          <div class="Section-picture">
-            <img id="photo3" src="Photo-03.jpg" alt="Photo3"/>
-          </div>
-          <div class="Section-par">
-            <h2> Title head </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-              sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-              magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-              quis nostrud exerci tation ullamcorper suscipit lobortis
-              nisl ut aliquip ex ea commodo consequat, duis autem vel.
-            </p>
-          </div>
-        </div>
-        <div class="right">
-          <aside id="SideBar">
-            <h2 id="SideBarHeader"> Side Bar </h2>
-            <p class="SideBarPar">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-              sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-              magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-              quis nostrud exerci tation ullamcorper suscipit lobortis
-              nisl ut aliquip ex ea commodo consequat, duis autem vel.
-              Lorem ipsum dolor sit amet.
-
-              Lorem ipsumonsectetuer adipiscing elit, sed diam nonummy
-              nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-              exerci tation ullamcorper suscipit lobortis nisl ut
-              aliquip ex ea commodo consequat, duis autem.
-            </p>
-          </aside>
-        </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="footer-links">
-        <a href="#">HOME</a>
-        <span> | </span>
-        <a href="#">ABOUT</a>
-        <span> | </span>
-        <a href="#">WORK</a>
-        <span> | </span>
-        <a href="#">NEWS</a>
-      </div>
-    </footer>
+    </nav>
   </body>
 </html>
