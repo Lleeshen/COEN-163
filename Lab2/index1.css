@@ -155,6 +155,7 @@ h1,h2 {
 }
 
 @media only screen and (max-width: 1000px) {
+  /* Change font size for mobile */
   h1, h2 {
     font-size: 14px;
   }
@@ -163,6 +164,7 @@ h1,h2 {
     font-size: 10px;
   }
 
+  /* Size of logo relatively larger for mobile, also want fixed height */
   .head-logo {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -177,6 +179,7 @@ h1,h2 {
     height: 50px;
   }
 
+  /* Style of button when it is visible */
   .head-button {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -188,6 +191,7 @@ h1,h2 {
     text-align: right;
   }
 
+  /* Normal nav bar just black line when nav bar closed*/
   .nav-bar {
     height: 3px;
   }
@@ -198,6 +202,7 @@ h1,h2 {
     margin-bottom: 5px;
   }
 
+  /* Elements top of each other with white border */
   .nav-link-elt {
     display: block;
     padding: 2px 2px;
@@ -217,39 +222,21 @@ h1,h2 {
   }
 
   .nav-link-elt a {
-    display: inline;  
+    display: inline;
   }
 
-/* When menu is collapsed */
   #nav-link {
     display: none;
   }
 
-  .nav-bar {
-    height: 3px;
-  }
-
-/*
-  When menu is open
-  .nav-link {
-    display: block;
-  }
-*/
-
-/* When button opens menu*/
+/* Initial position and size of button*/
   #button {
     position: relative;
     top: 10px;
     height: 30px;
   }
-/*
-  When button is closed
-  #button {
-    position: relative;
-    top: 15px;
-    height 20px;
-  }
-*/
+
+/* Lay middle sections on top of each other with picture at right side */
   .left {
     vertical-align: top;
     position: relative;

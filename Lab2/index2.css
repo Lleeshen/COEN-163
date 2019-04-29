@@ -152,6 +152,7 @@ h1,h2 {
 }
 
 @media only screen and (max-width: 1000px) {
+  /* Change font size to better fit text */
   h1, h2 {
     font-size: 14px;
   }
@@ -160,6 +161,7 @@ h1,h2 {
     font-size: 10px;
   }
 
+  /* Logo takes larger width of page */
   .head-logo {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -170,10 +172,12 @@ h1,h2 {
     width: 35%;
   }
 
+  /* Fix height of logo */
   #logo {
     height: 50px;
   }
 
+  /* Define style for button and initial location/size */
   .head-button {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -185,6 +189,7 @@ h1,h2 {
     text-align: right;
   }
 
+  /* Normal nav bar is just a black line */
   .nav-link {
     display: none;
   }
@@ -193,6 +198,7 @@ h1,h2 {
     height: 3px;
   }
 
+  /* Used in conjunction of side bar for flyout navigation */
   #main {
     position: relative;
     right: 0;
@@ -200,6 +206,7 @@ h1,h2 {
     padding: 0;
   }
 
+  /* Specify location and styling of side bar, width 0 initial condition */
   .side-nav-bar {
     display: block;
     height: 100%;
@@ -214,6 +221,7 @@ h1,h2 {
     padding-top: 50px;
   }
 
+  /* Define blocks for white lines */
   .nav-side-elt {
     border-style: solid;
     border-width: 0;
@@ -222,6 +230,15 @@ h1,h2 {
     transition: 0.5s;
   }
 
+  #nav-side-elt-f {
+    border-style: solid;
+    border-top-width: 1px;
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+    margin-top: 23px;
+  }
+
+  /* Text styling and place 10px right of border of side nav bar */
   .nav-side-elt a {
     display: block;
     margin-left: 10px;
@@ -233,19 +250,11 @@ h1,h2 {
     height: 20px;
   }
 
-  #nav-side-elt-f {
-    border-style: solid;
-    border-top-width: 1px;
-    border-top-color: #ffffff;
-    border-bottom-color: #ffffff;
-    margin-top: 23px;
-  }
-
   .side-nav-bar a:hover {
     color: #d1de44;
   }
 
-/* When button opens menu*/
+/* Initial location and size of button*/
   #button {
     position: relative;
     top: 10px;
@@ -253,15 +262,10 @@ h1,h2 {
     left: initial;
     right: 20px;
   }
-/*
-  When button is closed
-  #button {
-    position: relative;
-    top: 15px;
-    height 20px;
-    left: 23px;
-  }
-*/
+
+  /* Place picture before text and style
+    for middle sections and lay them top
+    of each other in order */
   .left {
     vertical-align: top;
     position: relative;
