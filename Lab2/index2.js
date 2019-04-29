@@ -4,12 +4,12 @@ function toggleNav() {
   buttonImg = document.getElementById("button");
   if(buttonImg.style.top == "10px") {
     document.getElementById("sideNav").style.width = "160px";
-    document.getElementById("main").style.right= "160px";
-    document.getElementById("footer").style.left= "160px";
+    document.getElementById("main").style.right= "150px";
+    document.getElementById("footer").style.left= "150px";
     buttonImg.src = "Button-02.png";
     buttonImg.style.top = "15px";
     buttonImg.style.height = "20px";
-    buttonImg.style.left = "20px";
+    buttonImg.style.left = "23px";
   } else {
     document.getElementById("sideNav").style.width = "0";
     document.getElementById("main").style.right= "0";
