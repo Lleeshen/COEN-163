@@ -193,8 +193,11 @@ h1,h2 {
     height: 3px;
   }
 
-  .main {
-    margin-right: 120px;
+  #main {
+    position: relative;
+    right: 0;
+    transition: margin-right 0.5s;
+    padding: 0;
   }
 
   /* Flyer based off https://www.w3schools.com/howto/howto_js_off-canvas.asp */
@@ -224,6 +227,7 @@ h1,h2 {
     border-style: solid;
     border-width: 1px;
     border-bottom-color: #ffffff;
+    transition: 0.5s;
   }
 
   #side-nav-bar-f {
@@ -318,6 +322,7 @@ h1,h2 {
   }
 
   .footer {
+    position: relative;
     height: 30px;
     width: 100%;
   }
