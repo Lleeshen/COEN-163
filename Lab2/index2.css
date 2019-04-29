@@ -214,14 +214,7 @@ h1,h2 {
     padding-top: 50px;
   }
 
-  .side-nav-bar a {
-    display: block;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 14px;
-    color: #ffffff;
-    padding: 2px 2px;
-    height: 20px;
+  .nav-side-elt {
     border-style: solid;
     border-width: 0;
     border-bottom-width: 1px;
@@ -229,7 +222,18 @@ h1,h2 {
     transition: 0.5s;
   }
 
-  #side-nav-bar-f {
+  .nav-side-elt a {
+    display: block;
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 2px 2px;
+    height: 20px;
+  }
+
+  #nav-side-elt-f {
     border-style: solid;
     border-top-width: 1px;
     border-top-color: #ffffff;
