@@ -9,7 +9,7 @@ function toggleNav() {
     buttonImg.src = "Button-02.png";
     buttonImg.style.top = "15px";
     buttonImg.style.height = "20px";
-    buttonImg.style.left = "15px";
+    buttonImg.style.left = "13px";
   } else {
     document.getElementById("sideNav").style.width = "0";
     document.getElementById("main").style.right= "0";
