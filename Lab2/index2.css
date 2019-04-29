@@ -243,6 +243,8 @@ h1,h2 {
     position: relative;
     top: 10px;
     height: 30px;
+    left: initial;
+    right: 20px;
   }
 /*
   When button is closed
@@ -250,6 +252,7 @@ h1,h2 {
     position: relative;
     top: 15px;
     height 20px;
+    left: 20px;
   }
 */
   .left {
