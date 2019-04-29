@@ -204,6 +204,7 @@ h1,h2 {
     height: 100%;
     width: 0;
     position: fixed;
+    text-decoration: none;
     z-index: 1;
     top: 0;
     right: 0;
@@ -215,11 +216,14 @@ h1,h2 {
   .side-nav-bar a {
     display: block;
     text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #ffffff;
     padding: 2px 2px;
     height: 20px;
     border-style: solid;
     border-width: 1px;
-    border-bottom-color: #ffffff;  
+    border-bottom-color: #ffffff;
   }
 
   #side-nav-bar-f {
@@ -227,6 +231,7 @@ h1,h2 {
     border-width: 1px;
     border-top-color: #ffffff;
     border-bottom-color: #ffffff;
+    margin-top: 20px;
   }
 
   .side-nav-bar a:hover {
